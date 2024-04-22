@@ -1,0 +1,106 @@
+[
+	{
+		"model": "transactions.package",
+		"pk": 1,
+		"fields": {
+			"name": "Collab - Collab Area",
+			"type": "postpaid",
+			"description": "Postpaid.\nOn per hour basis.\n45 per hour.",
+			"price": "45.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 2,
+		"fields": {
+			"name": "Premium - Solemn Area",
+			"type": "postpaid",
+			"description": "Postpaid.\nOn per hour basis.\n65 per hour.",
+			"price": "65.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 3,
+		"fields": {
+			"name": "Exclusive Entire Space",
+			"type": "postpaid",
+			"description": "Postpaid.\nOn per hour basis.\n899 per hour.",
+			"price": "899.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 4,
+		"fields": {
+			"name": "Exclusive Collab Area",
+			"type": "postpaid",
+			"description": "Postpaid.\nOn per hour basis.\n350 per hour.",
+			"price": "350.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 5,
+		"fields": {
+			"name": "24 Hour All Nighter Pass",
+			"type": "prepaid",
+			"total_time": "86400",
+			"total_duration": "604800",
+			"description": "Prepaid.\nExpires in a week.\n840 per pass for 24 hours.",
+			"price": "840.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 6,
+		"fields": {
+			"name": "12 Hour Day Pass",
+			"type": "prepaid",
+			"total_time": "43200",
+			"total_duration": "604800",
+			"description": "Prepaid.\nExpires in a week.\n480 per pass for 12 hours.",
+			"price": "480.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 7,
+		"fields": {
+			"name": "3 hours",
+			"type": "prepaid",
+			"total_time": "10800",
+			"total_duration": "10800",
+			"description": "Prepaid.\nValid for 3 hours.",
+			"price": "150.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	},
+	{
+		"model": "transactions.package",
+		"pk": 8,
+		"fields": {
+			"name": "Monthly Pass",
+			"type": "prepaid",
+			"total_time": "2592000",
+			"total_duration": "2592000",
+			"description": "Prepaid.\n3500 per pass for unlimited time.",
+			"price": "3500.00",
+			"created_at": "2024-04-20 00:00:00.0 +0800",
+			"updated_at": "2024-04-20 00:00:00.0 +0800"
+		}
+	}
+]
